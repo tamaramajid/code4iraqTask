@@ -1,0 +1,726 @@
+body{
+  margin: 0 !important;
+  padding: 0 !important;
+  background-color:rgba(170, 166, 157,1.0) !important;
+  background-size: cover;
+
+}
+
+
+#navbar{
+  /*background-color: pink !important;*/
+  background: rgba(255,255,255,1);
+  background: -moz-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 26%, rgba(252,197,236,1) 51%, rgba(254,160,222,1) 67%, rgba(255,148,223,1) 100%);
+  background: -webkit-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 26%, rgba(252,197,236,1) 51%, rgba(254,160,222,1) 67%, rgba(255,148,223,1) 100%);
+  background: -o-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 26%, rgba(252,197,236,1) 51%, rgba(254,160,222,1) 67%, rgba(255,148,223,1) 100%);
+  background: -ms-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 26%, rgba(252,197,236,1) 51%, rgba(254,160,222,1) 67%, rgba(255,148,223,1) 100%);
+  background: linear-gradient(to right, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 26%, rgba(214, 162, 232,1.0) 51%, rgba(214, 162, 232,1.0) 67%,rgba(214, 162, 232,1.0) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ff94df', GradientType=1 );
+
+}
+
+#logo{
+  width: 60px;
+  height: 60px;
+}
+
+.navbar-default .navbar-nav > .open > a .caret,
+.navbar-default .navbar-nav > .open > a:hover .caret,
+.navbar-default .navbar-nav > .open > a:focus .caret {
+    border-top-color: #555;
+    border-bottom-color: #555;
+}
+#divmain{
+
+/* padding: 100px; */
+  background-color:#D980FA;
+      position: relative;
+      background-color: white;
+      height: 400px;
+      width: 100%;
+
+      font-family: 'Courgette', cursive;
+}
+#p1{
+  text-align: center;
+  font-size: 60px;
+    font-family: 'Courgette', cursive;
+}
+#p2{
+  font-family: 'Courgette', cursive;
+  font-size: 24px;
+  padding-left: 120px;
+  padding-right: 120px;
+}
+
+.btn.btn-info, .link-style .col-sm-10 .btn.btn-info, .modal-body .dropdown-menu .btn.btn-info{
+  background-color: #911146;
+margin-left: 700px;
+}
+#btn2{
+  margin-left: 720px !important;
+}
+#p3{
+    font-family: 'Courgette', cursive;
+    font-size: 24px;
+    text-align: center;
+}
+#div2{
+  background-color: #D6A2E8;
+  width: 100%;
+  height: 155px;
+}
+#div3{
+  background-color: white;
+  /* background-color:rgb(240,219,223); */
+
+  width: 100%;
+  height: 150px;
+  padding-top: 0px;
+  margin-top: 0px;
+align-content: center;
+}
+#f{
+  width: 100%;
+  height: 50px;
+  background-color: #A82974;
+  padding-left: 600px;
+  padding-top: 5px;
+}
+#i{
+    padding-top: 5px;
+}
+#b{
+  font-size: 20px;
+}
+#h3{
+  text-align: center;
+  font-family: 'Courgette', cursive;
+font-family: 'Anton', sans-serif;
+font-family: 'Baloo Tammudu', cursive;
+}
+.contact{
+margin-left: 600px;
+width:auto;
+height: 100px;
+margin-right: 0px;
+
+
+}
+
+
+
+
+hr{
+
+  border: 0;
+  width: 80%;
+  color: #f00;
+background-color: #f00;
+height: 5px;
+
+margin-left: 10px;
+margin-right: 10px;
+}
+#top{
+  padding-top: 0px !important;
+  margin-top: 0px !important;
+}
+
+
+@import url('https://fonts.googleapis.com/css?family=Just+Another+Hand');
+
+body, html{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    font-family: 'Just Another Hand', cursive;
+    overflow-X: hidden;/* optional */
+  }
+
+#i1, #i2, #i3, #i4, #i5{ display: none;}
+
+.container{
+  position: relative;
+    margin: 0!important;
+    padding: 0!important;
+
+    margin-top: 100px;
+margin-bottom: 50%;
+padding-bottom: 500px;
+    height: 100vh;
+    min-height: 300px;
+  /*  min-width: 40000px!important;*/
+
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover !important;
+    -moz-background-size: cover !important;
+    -o-background-size: cover !important;
+    background-size: cover !important;
+  }
+
+
+    /* background-color: #1c1c1c;
+    border: solid 10px #616161;
+    border-radius:10px ;
+  } */
+
+  .container .slide_img{
+    position: absolute;
+    width: 120%;;
+    height: 100%;
+  }
+  .container .slide_img img{
+    width: inherit;
+    height: inherit;
+  }
+
+   .prev, .next{
+    ;
+    width: 12%;
+    height: inherit;
+    position: absolute;
+    top:0;
+    background-color: rgba(88, 88, 88,.2);
+    color:rgba(244, 244, 244,.9);
+    z-index: 99;
+    transition: .45s;
+    cursor: pointer;
+    text-align: center;
+  }
+
+  .next{right:0;}
+  .prev{left:0;}
+
+  label span{
+    position: absolute;
+    font-size: 100pt;
+    top: 50%;
+     transform: translateY(-50%);
+  }
+
+  .prev:hover, .next:hover{
+    transition: .3s;
+    background-color: rgba(88, 88, 89,.8);
+    color: #ffffff;
+  }
+
+.container #nav_slide{
+  width: 100%;
+  bottom: 12%;
+  height: 11px;
+  position: absolute;
+  text-align: center;
+  z-index: 99;
+  cursor: default;
+}
+
+#nav_slide .dots{
+  top: -5px;
+  width: 18px;
+  height: 18px;
+  margin: 0 4px;
+  position: relative;
+  border-radius: 100%;
+  display: inline-block;
+  background-color: rgba(0, 0, 0, 0.6);
+  transition: .4s;
+}
+
+#nav_slide .dots:hover {
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.9);
+  transition: .25s
+}
+
+.slide_img{z-index: -1;}
+
+
+#i1:checked ~ #one  ,
+  #i2:checked ~ #two  ,
+  #i3:checked ~ #three,
+  #i4:checked ~ #four ,
+  #i5:checked ~ #five
+  {z-index: 9; animation: scroll 1s ease-in-out;}
+
+
+#i1:checked  ~  #nav_slide #dot1,
+  #i2:checked  ~  #nav_slide #dot2,
+  #i3:checked  ~  #nav_slide #dot3,
+  #i4:checked  ~  #nav_slide #dot4,
+  #i5:checked  ~  #nav_slide #dot5
+  { background-color: rgba(255,255,255,.9);}
+
+@keyframes scroll{
+  0%{  opacity:.4;}
+  100%{opacity:1;}
+}
+@media (min-width: 40000px)
+.container {
+    max-width: 720px;
+  }
+
+
+@media screen and (max-width: 685px){
+  .container{
+    border: none;
+    width: 100%;
+    height: 0;
+    padding-bottom: 55%;
+  }
+
+  label span { font-size: 50pt; }
+
+  .prev, .next{
+    width: 15%;
+  }
+  #nav_slide .dots{
+    width: 12px;
+    height: 12px;
+  }
+}
+@media screen  and(min-width: 970px){
+  .me{ display: none;}
+}
+
+
+
+.fa-1x{
+    font-size:0.1em;
+    color: #A82974 !important;
+}
+.fa-2x{
+    font-size:5px;
+
+}
+.fa-3x{
+    font-size:1.2em;
+}
+.fa-4x{
+    font-size:1.3em;
+}
+.fa-5x{
+    font-size:1.6em;
+}
+.fa-mycustomx{
+    font-size:3.2em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* body{
+  margin: 0 !important;
+  padding: 0 !important;
+  background-color:rgba(170, 166, 157,1.0) !important;
+  background-size: cover;
+
+}
+
+}
+#navbar{
+  /*background-color: pink !important;*/
+  /* background: rgba(255,255,255,1);
+  background: -moz-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 26%, rgba(252,197,236,1) 51%, rgba(254,160,222,1) 67%, rgba(255,148,223,1) 100%);
+  background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255,255,255,1)), color-stop(26%, rgba(255,255,255,1)), color-stop(51%, rgba(252,197,236,1)), color-stop(67%, rgba(254,160,222,1)), color-stop(100%, rgba(255,148,223,1)));
+  background: -webkit-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 26%, rgba(252,197,236,1) 51%, rgba(254,160,222,1) 67%, rgba(255,148,223,1) 100%);
+  background: -o-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 26%, rgba(252,197,236,1) 51%, rgba(254,160,222,1) 67%, rgba(255,148,223,1) 100%);
+  background: -ms-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 26%, rgba(252,197,236,1) 51%, rgba(254,160,222,1) 67%, rgba(255,148,223,1) 100%);
+  background: linear-gradient(to right, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 26%, rgba(214, 162, 232,1.0) 51%, rgba(214, 162, 232,1.0) 67%,rgba(214, 162, 232,1.0) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ff94df', GradientType=1 );
+
+}
+
+#logo{
+  width: 60px;
+  height: 60px;
+}
+
+.navbar-default .navbar-nav > .open > a .caret,
+.navbar-default .navbar-nav > .open > a:hover .caret,
+.navbar-default .navbar-nav > .open > a:focus .caret {
+    border-top-color: #555;
+    border-bottom-color: #555;
+}
+#divmain{
+
+/* padding: 100px; */
+  /* background-color:#D980FA;
+      position: relative;
+}
+/*  */
+
+/* hr{
+
+  border: 0;
+  width: 80%;
+  color: #f00;
+background-color: #f00;
+height: 5px;
+
+margin-left: 10px;
+margin-right: 10px;
+}
+#top{
+  padding-top: 0px !important;
+  margin-top: 0px !important;
+} */
+/*
+
+@import url('https://fonts.googleapis.com/css?family=Just+Another+Hand');
+
+body, html{
+		width: 100%;
+		height: 100%;
+		margin: 0;
+		font-family: 'Just Another Hand', cursive;
+		overflow-X: hidden;/* optional */
+	/* }
+
+#i1, #i2, #i3, #i4, #i5{ display: none;}
+
+.container{
+		margin: 0!important;
+    padding: 0!important;
+      position: relative;
+		margin-top: 100px;
+margin-bottom: 50%;
+padding-bottom: 500px;
+    height: 100vh;
+    min-height: 300px;
+    min-width: 40000px!important;
+
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover !important;
+    -moz-background-size: cover !important;
+    -o-background-size: cover !important;
+    background-size: cover !important;
+  }
+ */ */
+
+		/* background-color: #1c1c1c;
+		border: solid 10px #616161;
+		border-radius:10px ;
+	} */
+
+	/* .container .slide_img{
+		position: absolute;
+		width: 100%;;
+		height: 100%;
+	}
+	.container .slide_img img{
+		width: inherit;
+		height: inherit;
+	} */
+/*
+	 .prev, .next{
+		width: 12%;
+		height: inherit;
+		position: absolute;
+		top:0;
+		background-color: rgba(88, 88, 88,.2);
+		color:rgba(244, 244, 244,.9);
+		z-index: 99;
+		transition: .45s;
+		cursor: pointer;
+		text-align: center;
+	}
+
+	.next{right:0;}
+	.prev{left:0;}
+
+	label span{
+		position: absolute;
+		font-size: 100pt;
+		top: 50%;
+	 	transform: translateY(-50%);
+	}
+
+	.prev:hover, .next:hover{
+		transition: .3s;
+		background-color: rgba(88, 88, 89,.8);
+		color: #ffffff;
+	} */
+/*
+.container #nav_slide{
+	width: 100%;
+	bottom: 12%;
+	height: 11px;
+	position: absolute;
+	text-align: center;
+	z-index: 99;
+	cursor: default;
+}
+
+#nav_slide .dots{
+	top: -5px;
+	width: 18px;
+	height: 18px;
+	margin: 0 4px;
+	position: relative;
+	border-radius: 100%;
+	display: inline-block;
+	background-color: rgba(0, 0, 0, 0.6);
+	transition: .4s;
+}
+
+#nav_slide .dots:hover {
+	cursor: pointer;
+	background-color: rgba(255, 255, 255, 0.9);
+	transition: .25s
+} */
+/*
+.slide_img{z-index: -1;}
+
+	#i1:checked ~ #one  ,
+	#i2:checked ~ #two  ,
+	#i3:checked ~ #three,
+	#i4:checked ~ #four ,
+	#i5:checked ~ #five
+	{z-index: 9; animation: scroll 1s ease-in-out;}
+
+	#i1:checked  ~  #nav_slide #dot1,
+	#i2:checked  ~  #nav_slide #dot2,
+	#i3:checked  ~  #nav_slide #dot3,
+	#i4:checked  ~  #nav_slide #dot4,
+	#i5:checked  ~  #nav_slide #dot5
+	{ background-color: rgba(255,255,255,.9);} */
+
+/* @keyframes scroll{
+	0%{	opacity:.4;}
+	100%{opacity:1;}
+}
+@media (min-width: 40000px)
+.container {
+    max-width: 720px;
+  }  */
+
+
+
+
+
+
+
+
+/* @import url('https://fonts.googleapis.com/css?family=Just+Another+Hand');
+
+body, html{
+		width: 100%;
+		height: 100%;
+		margin: 0;
+		font-family: 'Just Another Hand', cursive;
+		overflow-X: hidden;/* optional
+	}
+
+#i1, #i2, #i3, #i4, #i5{ display: none;}
+
+.container{
+		margin: 0 auto;
+		margin-top: 20px;
+		position: relative;
+		width: 70%;
+		height: 0;
+		padding-bottom: 38%;
+	  user-select: none;
+		background-color: #1c1c1c;
+		border: solid 10px #616161;
+		border-radius:10px ;
+	}
+
+	.container .slide_img{
+		position: absolute;
+		width: 100%;;
+		height: 100%;
+	}
+	.container .slide_img img{
+		width: inherit;
+		height: inherit;
+	}
+
+	 .prev, .next{
+		width: 12%;
+		height: inherit;
+		position: absolute;
+		top:0;
+		background-color: rgba(88, 88, 88,.2);
+		color:rgba(244, 244, 244,.9);
+		z-index: 99;
+		transition: .45s;
+		cursor: pointer;
+		text-align: center;
+	}
+
+	.next{right:0;}
+	.prev{left:0;}
+
+	label span{
+		position: absolute;
+		font-size: 100pt;
+		top: 50%;
+	 	transform: translateY(-50%);
+	}
+
+	.prev:hover, .next:hover{
+		transition: .3s;
+		background-color: rgba(88, 88, 89,.8);
+		color: #ffffff;
+	}
+
+.container #nav_slide{
+	width: 100%;
+	bottom: 12%;
+	height: 11px;
+	position: absolute;
+	text-align: center;
+	z-index: 99;
+	cursor: default;
+}
+
+#nav_slide .dots{
+	top: -5px;
+	width: 18px;
+	height: 18px;
+	margin: 0 4px;
+	position: relative;
+	border-radius: 100%;
+	display: inline-block;
+	background-color: rgba(0, 0, 0, 0.6);
+	transition: .4s;
+}
+
+#nav_slide .dots:hover {
+	cursor: pointer;
+	background-color: rgba(255, 255, 255, 0.9);
+	transition: .25s
+}
+
+.slide_img{z-index: -1;}
+
+	#i1:checked ~ #one  ,
+	#i2:checked ~ #two  ,
+	#i3:checked ~ #three,
+	#i4:checked ~ #four ,
+	#i5:checked ~ #five
+	{z-index: 9; animation: scroll 1s ease-in-out;}
+
+	#i1:checked  ~  #nav_slide #dot1,
+	#i2:checked  ~  #nav_slide #dot2,
+	#i3:checked  ~  #nav_slide #dot3,
+	#i4:checked  ~  #nav_slide #dot4,
+	#i5:checked  ~  #nav_slide #dot5
+	{ background-color: rgba(255,255,255,.9);}
+
+@keyframes scroll{
+	0%{	opacity:.4;}
+	100%{opacity:1;}
+} */
+
+/* .yt{
+	margin: 0 auto;
+	margin-top: 50px;
+	position: relative;
+	width: 150px;
+	height:50px;
+	border: outset #2c2c2c 4px;
+	border-radius: 10px;
+	text-align: center;
+	font-size: 30pt;
+	transition: .5s;
+}
+
+.yt a{
+	text-decoration: none;
+	color: #4c4c4c;
+	transition: .5s;
+}
+
+.yt:hover{
+	background: #4c4c4c;
+	transition: .3s;
+}
+
+.yt:hover a{
+	color: #fff;
+	transition: .3s;
+}
+ */
+@media screen and (max-width: 685px){
+	.container{
+		border: none;
+		width: 100%;
+		height: 0;
+		padding-bottom: 55%;
+	}
+
+	label span { font-size: 50pt; }
+
+	.prev, .next{
+		width: 15%;
+	}
+	#nav_slide .dots{
+		width: 12px;
+		height: 12px;
+	}
+}
+@media screen  and(min-width: 970px){
+	.me{ display: none;}
+}
+
+
+
+  /* background: linear-gradient(270deg, #0ea8ff, #9419b0, #ee0df0);
+background-size: 600% 600%;
+
+-webkit-animation: AnimationName 0s ease infinite;
+-moz-animation: AnimationName 0s ease infinite;
+animation: AnimationName 0s ease infinite;
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+} */
+
+
+/*.container{
+  width: 100%;
+  position: relative;
+  overflow-x: hidden;
+}
+html.{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background: url(col.jpg)  fixed no-repeat ;
+  background-size: cover;
+}
+html,body{
+  height: 100;
+}*/
